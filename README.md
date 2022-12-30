@@ -1,1 +1,1 @@
-# fNIRS
+# This repository is for the paper "Study on driving risk cognition of passengers in highly automated driving based on research of prefrontal cortex via fNIRS" which has beed submitted to the special issue Human-centred intelligent systems of Scientific Reports.
