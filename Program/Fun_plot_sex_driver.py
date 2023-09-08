@@ -106,6 +106,7 @@ def fun_plot_sex(Data_Sex_Male,Data_Sex_Female):
         Num_Sex_FeMale=int(len(Data_Sex_Female[key])/2)
         Mean_Data_Sex_Male=np.zeros([Num_Sex_Male,2])
         Mean_Data_Sex_FeMale=np.zeros([Num_Sex_FeMale,2])
+        # pdb.set_trace()
         for i_num in range(Num_Sex_Male):
             Mean_Data_Sex_Male[i_num,0]=value[i_num][Position_Index][Position_Channel]
             Mean_Data_Sex_Male[i_num,1]=value[i_num*2+1][Position_Index][Position_Channel]
@@ -135,6 +136,7 @@ def fun_plot_sex(Data_Sex_Male,Data_Sex_Female):
         plt.savefig(Name_Figure)
         Num_Figure=Num_Figure+1
         del key,value,Mean_Data_Sex_Male, Mean_Data_Sex_FeMale
+    # pdb.set_trace()s
 def fun_plot_driver(Data_Driver_No,Data_Driver_Yes):
     Event_All=len(Data_Driver_No)
     Position_Channel=7
